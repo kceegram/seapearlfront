@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import Aos from 'aos'
+import AOS from 'aos'
 import './Navbar.css'
 import 'aos/dist/aos.css'
 import React from 'react'
@@ -10,7 +10,7 @@ const Navbar = () => {
 
   // aos
   useEffect(()=> {
-    Aos.init({duration: 1000});
+    AOS.init({duration: 1000});
   }, [])
 
   const [hide, setHide] = useState(false);
