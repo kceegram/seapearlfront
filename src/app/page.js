@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SectionOne from "./Components/HomeComp/SectionOne";
 
 
 const page = () => {
